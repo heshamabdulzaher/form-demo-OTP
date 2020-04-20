@@ -1,0 +1,53 @@
+.hero-banner {
+  background-color: $mainColor;
+  padding: 40px 0;
+  img {
+    width: 80px;
+  }
+  .content {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    h1 {
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 46px;
+      margin-bottom: 24px;
+    }
+    p {
+      font-size: 20px;
+      line-height: 38px;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .hero-banner {
+    .content {
+      h1 {
+        font-size: 38px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 560px) {
+  .hero-banner .main-container {
+    flex-direction: column;
+    align-items: center;
+    img {
+      margin-top: 30px;
+    }
+    .content {
+      h1 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}

@@ -1,0 +1,131 @@
+/* Thin => 200 */
+@font-face {
+  font-family: 'STCForward';
+  font-weight: 200;
+  font-style: normal;
+  src: url('/assets/fonts/STCForward/STCForward-Thin.eot');
+  src: url('/assets/fonts/STCForward/STCForward-Thin.woff') format('woff'),
+    url('/assets/fonts/STCForward/STCForward-Thin.ttf') format('truetype'),
+    url('/assets/fonts/STCForward/STCForward-Thin.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'STCForward';
+  font-weight: 200;
+  font-style: italic;
+  src: url('/assets/fonts/STCForward/STCForward-ThinItalic.eot');
+  src: url('/assets/fonts/STCForward/STCForward-ThinItalic.woff') format('woff'),
+    url('/assets/fonts/STCForward/STCForward-ThinItalic.ttf') format('truetype'),
+    url('/assets/fonts/STCForward/STCForward-ThinItalic.svg') format('svg');
+}
+
+/* Light => 300 */
+@font-face {
+  font-family: 'STCForward';
+  font-weight: 300;
+  font-style: normal;
+  src: url('/assets/fonts/STCForward/STCForward-Light.eot');
+  src: url('/assets/fonts/STCForward/STCForward-Light.woff') format('woff'),
+    url('/assets/fonts/STCForward/STCForward-Light.ttf') format('truetype'),
+    url('/assets/fonts/STCForward/STCForward-Light.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'STCForward';
+  font-weight: 300;
+  font-style: italic;
+  src: url('/assets/fonts/STCForward/STCForward-LightItalic.eot');
+  src: url('/assets/fonts/STCForward/STCForward-LightItalic.woff')
+      format('woff'),
+    url('/assets/fonts/STCForward/STCForward-LightItalic.ttf')
+      format('truetype'),
+    url('/assets/fonts/STCForward/STCForward-LightItalic.svg') format('svg');
+}
+
+/* Regular => 400 */
+@font-face {
+  font-family: 'STCForward';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/assets/fonts/STCForward/STCForward-Regular.eot');
+  src: url('/assets/fonts/STCForward/STCForward-Regular.woff') format('woff'),
+    url('/assets/fonts/STCForward/STCForward-Regular.ttf') format('truetype'),
+    url('/assets/fonts/STCForward/STCForward-Regular.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'STCForward';
+  font-weight: 400;
+  font-style: italic;
+  src: url('/assets/fonts/STCForward/STCForward-Italic.eot');
+  src: url('/assets/fonts/STCForward/STCForward-Italic.woff') format('woff'),
+    url('/assets/fonts/STCForward/STCForward-Italic.ttf') format('truetype'),
+    url('/assets/fonts/STCForward/STCForward-Italic.svg') format('svg');
+}
+
+/* Medium => 500 */
+@font-face {
+  font-family: 'STCForward';
+  font-weight: 500;
+  font-style: normal;
+  src: url('/assets/fonts/STCForward/STCForward-Medium.eot');
+  src: url('/assets/fonts/STCForward/STCForward-Medium.woff') format('woff'),
+    url('/assets/fonts/STCForward/STCForward-Medium.ttf') format('truetype'),
+    url('/assets/fonts/STCForward/STCForward-Medium.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'STCForward';
+  font-weight: 500;
+  font-style: italic;
+  src: url('/assets/fonts/STCForward/STCForward-MediumItalic.eot');
+  src: url('/assets/fonts/STCForward/STCForward-MediumItalic.woff')
+      format('woff'),
+    url('/assets/fonts/STCForward/STCForward-MediumItalic.ttf')
+      format('truetype'),
+    url('/assets/fonts/STCForward/STCForward-MediumItalic.svg') format('svg');
+}
+
+/* Bold => 600, 700 */
+@font-face {
+  font-family: 'STCForward';
+  font-weight: 700;
+  font-style: normal;
+  src: url('/assets/fonts/STCForward/STCForward-Bold.eot');
+  src: url('/assets/fonts/STCForward/STCForward-Bold.woff') format('woff'),
+    url('/assets/fonts/STCForward/STCForward-Bold.ttf') format('truetype'),
+    url('/assets/fonts/STCForward/STCForward-Bold.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'STCForward';
+  font-weight: 700;
+  font-style: italic;
+  src: url('/assets/fonts/STCForward/STCForward-BoldItalic.eot');
+  src: url('/assets/fonts/STCForward/STCForward-BoldItalic.woff') format('woff'),
+    url('/assets/fonts/STCForward/STCForward-BoldItalic.ttf') format('truetype'),
+    url('/assets/fonts/STCForward/STCForward-BoldItalic.svg') format('svg');
+}
+
+/* Extra Bold => 800 */
+@font-face {
+  font-family: 'STCForward';
+  font-weight: 900;
+  font-style: normal;
+  src: url('/assets/fonts/STCForward/STCForward-ExtraBold.eot');
+  src: url('/assets/fonts/STCForward/STCForward-ExtraBold.woff') format('woff'),
+    url('/assets/fonts/STCForward/STCForward-ExtraBold.ttf') format('truetype'),
+    url('/assets/fonts/STCForward/STCForward-ExtraBold.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'STCForward';
+  font-weight: 900;
+  font-style: italic;
+  src: url('/assets/fonts/STCForward/STCForward-ExtraBoldItalic.eot');
+  src: url('/assets/fonts/STCForward/STCForward-ExtraBoldItalic.woff')
+      format('woff'),
+    url('/assets/fonts/STCForward/STCForward-ExtraBoldItalic.ttf')
+      format('truetype'),
+    url('/assets/fonts/STCForward/STCForward-ExtraBoldItalic.svg') format('svg');
+}
