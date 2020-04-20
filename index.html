@@ -14,106 +14,41 @@
   <body class="en" data-source="web-en">
     <div class="main-container">
       <section class="main-form">
-        <div class="alert-err-msg"></div>
-        <form
-          novalidate
-          class="step active"
-          id="step2"
-          data-step-index="2"
-          onsubmit="renderNextStep(event)"
-        >
+        <form novalidate class="step active">
           <h3 class="title">Personal Information</h3>
           <div class="form-group">
             <label>Full name</label>
             <div class="form-field">
-              <input
-                required
-                type="text"
-                name="name"
-                placeholder="John doe"
-                pattern=".{2,255}"
-                data-err-msg="Type your name correctly, 2 characters minimum"
-              />
+              <input type="text" name="name" />
             </div>
-            <small></small>
           </div>
           <div class="form-group">
             <label>Phone number</label>
             <div class="form-field">
-              <div class="form-control-prepend">+966</div>
-              <input
-                required
-                type="tel"
-                minlength="9"
-                maxlength="10"
-                name="mobile"
-                placeholder="0556669016"
-                pattern="(5|05)\+?[0-9]{8}"
-                data-err-msg="Incorrect Saudi mobile number"
-              />
+              <input required type="tel" name="mobile" />
             </div>
-            <small></small>
           </div>
           <div class="form-group">
             <label>Email</label>
             <div class="form-field">
-              <input
-                required
-                type="email"
-                name="email"
-                placeholder="john@mail.com"
-                pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-                data-err-msg="Incorrect email"
-              />
+              <input type="email" name="email" />
             </div>
             <small></small>
           </div>
-          <div class="form-group">
-            <label>City</label>
-            <div class="form-field">
-              <div
-                class="dropdown dropdown-geo"
-                data-param="city"
-                data-lang="en"
-              >
-                <button data-default="Select city"></button>
-                <input type="text" />
-                <input type="hidden" name="cityId" />
-                <div class="dropdown-wrap"></div>
-              </div>
-            </div>
-            <small></small>
-          </div>
-          <button class="btn main-btn" disabled>Submit</button>
+          <button onclick="renderNextStep(event)" class="btn main-btn">
+            Next
+          </button>
         </form>
-        <form
-          novalidate
-          class="step"
-          id="step3"
-          data-step-index="3"
-          onsubmit="renderNextStep(event)"
-        >
+        <form novalidate class="step otp-step">
           <h3 class="title">Enter the OTP sent to your mobile</h3>
           <div class="form-group">
             <label>OTP</label>
             <div class="form-field">
-              <input
-                required
-                type="text"
-                name="otp"
-                maxlength="4"
-                pattern="[0-9]{4}"
-                data-err-msg="Incorrect OTP"
-              />
+              <input type="text" name="otp" />
             </div>
-            <small></small>
           </div>
-          <button class="btn main-btn" disabled>Submit</button>
+          <button type="button" class="btn main-btn">Submit</button>
         </form>
-        <div class="step flex flex-center" id="successMsg" data-step-index="4">
-          <img src="/assets/img/checkmark.svg" alt="Checkmark Icon" />
-          <h2>Thank you. We have recived your activation requeest</h2>
-        </div>
       </section>
     </div>
     <script src="/assets/js/main.js"></script>
